@@ -1,44 +1,45 @@
- #heading{ 
-    height: 700px;
-    width: 700px;
-     text-align: center;}
- 
-.box{
+nav a{
+    text-decoration:none;
+    margin: 20px;
+    padding: 10px;
+}
+header{
+    background-color: cadetblue;
+    height: 30pxpx;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#second{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+ .box{
 
+    background-color: yellow;
     height: 100px;
     width: 100px;
-    border: 5px solid seagreen;
     margin: 5px;
+    display: inline-block;
 }
-#cantener{
-    height: 600px;
-    width: 600px;
-    margin: 5px;
-    border: 5px solid slateblue;
-    display: flex;
-     justify-content: flex-end;
-    /* flex-wrap: nowrap; */
-    /* align-items: center;
-    align-content: center;  */
-} 
-
-#box1{
-     background-color: aqua;
-     order: 3;
+#contener{
+    border: 5px solid palevioletred;
+    margin: 2px;
 }
-#box2{ 
-    background-color: rgb(119, 0, 255) ;
-    order: 4;
+#box4{
+   position: fixed;
+    right: 10px;
 }
-#box3{ 
-    background-color: rgb(8, 65, 65);
-    order: 1;
-
+#box2{
+   z-index: 2;
+   position: fixed;
+   left: 5px;
 }
-#box4{ 
-    background-color: rgb(0, 255, 136);
-    order: 2;
-
-
+footer{
+    position: fixed;
+    bottom: 10px;
+    background-color: crimson;
 }
-
