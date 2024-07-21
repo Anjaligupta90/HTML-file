@@ -1,0 +1,44 @@
+ #heading{ 
+    height: 700px;
+    width: 700px;
+     text-align: center;}
+ 
+.box{
+
+    height: 100px;
+    width: 100px;
+    border: 5px solid seagreen;
+    margin: 5px;
+}
+#cantener{
+    height: 600px;
+    width: 600px;
+    margin: 5px;
+    border: 5px solid slateblue;
+    display: flex;
+     justify-content: flex-end;
+    /* flex-wrap: nowrap; */
+    /* align-items: center;
+    align-content: center;  */
+} 
+
+#box1{
+     background-color: aqua;
+     order: 3;
+}
+#box2{ 
+    background-color: rgb(119, 0, 255) ;
+    order: 4;
+}
+#box3{ 
+    background-color: rgb(8, 65, 65);
+    order: 1;
+
+}
+#box4{ 
+    background-color: rgb(0, 255, 136);
+    order: 2;
+
+
+}
+
